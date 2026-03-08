@@ -1,0 +1,46 @@
+{
+  "name": "fibaro-node-scripts",
+  "version": "1.0.0",
+  "description": "Node.js scripts to help with Fibaro Quick App development - pack, unpack, upload, download, and watch .fqa files",
+  "main": "index.js",
+  "scripts": {
+    "prepublishOnly": "npm test",
+    "test": "node --version"
+  },
+  "bin": {
+    "fibaro-unpack": "scripts/unpack.js",
+    "fibaro-pack": "scripts/pack.js",
+    "fibaro-upload": "scripts/upload.js",
+    "fibaro-download": "scripts/download.js",
+    "fibaro-watch": "scripts/watch.js",
+    "fibaro-setup-links": "scripts/setup-links.js",
+    "fibaro-config": "scripts/config.js"
+  },
+  "files": [
+    "scripts/",
+    "README.md"
+  ],
+  "keywords": [
+    "fibaro",
+    "home-center",
+    "hc3",
+    "quick-app",
+    "fqa",
+    "home-automation",
+    "smart-home",
+    "lua"
+  ],
+  "author": "",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/YOUR_USERNAME/fibaro-node-tools.git"
+  },
+  "bugs": {
+    "url": "https://github.com/YOUR_USERNAME/fibaro-node-tools/issues"
+  },
+  "homepage": "https://github.com/YOUR_USERNAME/fibaro-node-tools#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  }
+}

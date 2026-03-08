@@ -1,0 +1,36 @@
+# Development files
+node_modules/
+.git/
+.github/
+*.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Test and example files
+test/
+tests/
+*.test.js
+examples/
+
+# Build artifacts
+_packed/
+_unpacked/
+dist/
+
+# Environment and config
+.env
+.env.*
+fibaro.config.json
+config/
+
+# Documentation source
+docs/
