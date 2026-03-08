@@ -7,7 +7,7 @@ const path = require('path');
 // This script creates hard links from shared libraries to each project folder
 // Hard links ensure all projects reference the same file, preventing duplication
 
-const rootDir = path.resolve(__dirname, '..');
+const rootDir = process.cwd();
 const sharedDir = path.join(rootDir, '_shared');
 const unpackedDir = path.join(rootDir, '_unpacked');
 const librariesConfigPath = path.join(sharedDir, 'libraries.json');

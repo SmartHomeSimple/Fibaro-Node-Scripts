@@ -28,7 +28,7 @@ const icons = {
     info: 'ℹ️',
     upload: '🚀'
 };
-const projectRoot = path.join(__dirname, '..');
+const projectRoot = process.cwd();
 const unpackedDir = path.join(projectRoot, '_unpacked');
 const configPath = path.join(projectRoot, 'fibaro.config.json');
 

@@ -8,13 +8,13 @@
     "test": "node --version"
   },
   "bin": {
-    "fibaro-unpack": "./scripts/unpack.js",
-    "fibaro-pack": "./scripts/pack.js",
-    "fibaro-upload": "./scripts/upload.js",
-    "fibaro-download": "./scripts/download.js",
-    "fibaro-watch": "./scripts/watch.js",
-    "fibaro-setup-links": "./scripts/setup-links.js",
-    "fibaro-config": "./scripts/config.js"
+    "fibaro-unpack": "scripts/unpack.js",
+    "fibaro-pack": "scripts/pack.js",
+    "fibaro-upload": "scripts/upload.js",
+    "fibaro-download": "scripts/download.js",
+    "fibaro-watch": "scripts/watch.js",
+    "fibaro-setup-links": "scripts/setup-links.js",
+    "fibaro-config": "scripts/config.js"
   },
   "files": [
     "scripts/",
@@ -31,7 +31,7 @@
     "lua"
   ],
   "author": "",
-  "license": "MIT",
+  "license": "Apache-2.0",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/YOUR_USERNAME/fibaro-node-tools.git"

@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const fs = require('fs');
 const path = require('path');
 const http = require('http');
@@ -29,7 +31,7 @@ const icons = {
     warning: '⚠️'
 };
 
-const projectRoot = path.join(__dirname, '..');
+const projectRoot = process.cwd();
 const iconsDir = path.join(projectRoot, '_icons');
 const configPath = path.join(projectRoot, 'fibaro.config.json');
 const iconConfigPath = path.join(iconsDir, '_config.json');

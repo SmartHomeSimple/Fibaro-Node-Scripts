@@ -3,7 +3,7 @@
 const fs = require('fs');
 const path = require('path');
 
-const projectRoot = path.join(__dirname, '..');
+const projectRoot = process.cwd();
 const packedDir = path.join(projectRoot, '_packed');
 const unpackedDir = path.join(projectRoot, '_unpacked');
 

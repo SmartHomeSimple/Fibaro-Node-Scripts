@@ -20,7 +20,7 @@ const icons = {
     upload: '🚀'
 };
 
-const projectRoot = path.join(__dirname, '..');
+const projectRoot = process.cwd();
 const unpackedDir = path.join(projectRoot, '_unpacked');
 
 if (!fs.existsSync(unpackedDir)) {
